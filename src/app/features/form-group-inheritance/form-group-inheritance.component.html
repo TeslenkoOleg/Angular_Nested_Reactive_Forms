@@ -1,0 +1,48 @@
+<!--form-group-parent.component.html-->
+<form [formGroup]="form" class="form-main-container">
+  <div class="user-form-container border-style">
+    <span class="user-border-title ">
+      Parent form
+    </span>
+    <div >
+      <label for="name">Name:</label>
+      <input type="text" class="form-control" formControlName="name" id="name">
+    </div>
+    <br/>
+        <app-child-form-group-inheritance></app-child-form-group-inheritance>
+  </div>
+</form>
+
+
+
+
+<!--    <app-child-form-group-inheritance></app-child-form-group-inheritance>-->
+
+<!--        <div formGroupName="address" class="address-form-container border-style">-->
+<!--        <span class="user-border-title ">-->
+<!--          Address info-->
+<!--        </span>-->
+<!--          <div>-->
+<!--            <label for="country">Country:</label>-->
+<!--            <input type="text" class="form-control" formControlName="country" id="country">-->
+<!--          </div>-->
+<!--          <div>-->
+<!--            <label for="city">City:</label>-->
+<!--            <input type="text" class="form-control" formControlName="city" id="city">-->
+<!--          </div>-->
+<!--          <br/>-->
+<!--                <div formGroupName="contacts" class="border-style">-->
+<!--                  <span class="user-border-title ">-->
+<!--                Contacts info-->
+<!--                  </span>-->
+<!--                  <div>-->
+<!--                    <label for="phone">Phone:</label>-->
+<!--                    <input type="text" class="form-control" formControlName="phone" id="phone">-->
+<!--                  </div>-->
+<!--                  <div>-->
+<!--                    <label for="email">Email:</label>-->
+<!--                    <input type="text" class="form-control" formControlName="email" id="email">-->
+<!--                  </div>-->
+
+<!--                </div>-->
+<!--    </div>-->
